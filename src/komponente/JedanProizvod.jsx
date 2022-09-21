@@ -6,6 +6,7 @@ function JedanProizvod({product,Dodaj,Oduzmi,inCart}) {
    // console.log(props);
   /* function Dodaj(title){
        product.amount=product.amount+1;
+       ssssssssss
        console.log("product id= "+product.id,"amount= "+ product.amount +title);
    }
    */
