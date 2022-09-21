@@ -1,0 +1,164 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color:rgb(41, 152, 196);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(175, 175, 175);
+  align-items: center;
+  min-height: 40px;
+  padding-left: 25px;
+  font-size: large;
+ }
+ .cart-items {
+  display: flex;
+ flex-direction: row;
+  align-items: center;
+  
+  margin-left: 20px;
+ }
+ .cart-num {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+ padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  
+ }
+ .all-products {
+  display: flex;
+  border:2px solid white;
+  height: 700px;
+  justify-content: center;
+ }
+ .card {
+  border-style: solid;
+  border-width: 2px;
+  margin: 15px;
+  margin-top: 40px;
+  padding: 15px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  max-width: 200px;
+  
+ }
+ .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+   
+ 
+ 
+ }
+  .card-body {
+  margin: 10px;
+ }
+ .btn {
+  background-color: cornflowerblue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 3px;
+  border-radius: 3px;
+  border-width: 0px;
+ }
+ a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+ }
+ .cart-container {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  justify-content: space-evenly;
+  
+ }
+ .card-cart {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 5px;
+  height: 530px;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  padding: 25px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 30px;
+  max-width: 200px;
+ }
+ .card-img-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+ }
+ body{
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgb(91, 106, 180) 0%, rgb(252, 213, 70) 100%);
+
+ }
+ li{
+   background-color:#93baf4;
+margin: 30px;
+font-size: larger;
+list-style-type: none;
+border-style: double;
+ }
+ #poruciTortu{
+   border:2px solid black;
+   height: 88vh;
+   display: flex;
+   justify-content: center;
+
+ }
+ #poruciTortu form{
+  border:2px solid black;
+  width: 70%;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+
+ }
+ .razmak{
+   margin-top: 30px;
+   margin-bottom: 10px;
+ }
+ #ucitani{
+   background-color: rgb(241, 230, 30);
+   display: absolute;
+   top:0;
+ }
+
+ .opis{
+  border:4px solid white;
+  height: 20vh;
+   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: sans-serif;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgb(102, 167, 213) 0%, rgb(236, 151, 33) 100%);
+
+
+ }
+ table{
+  background-color: #93baf4;
+  border: 3px solid black;
+  border-spacing: 0px;
+  empty-cells: show;
+  border-style: double;
+ }
+ td {
+  border: 1px #000 solid;
+  padding: 4px;
+}
