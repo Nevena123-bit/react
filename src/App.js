@@ -59,7 +59,10 @@ function Oduzmi(title){
     <BrowserRouter className="App">
       <NavBar cartNum={cartNum}></NavBar>
     <Routes>
-
+    <Route path="/" element={ <Proizvodi products={products} Dodaj={Dodaj} Oduzmi={Oduzmi}/>}/>
+      <Route path="/cart" element={ <Cart products={products}/> }/>
+      <Route path="/cenovnik" element={ <Cenovnik/> }/>
+      <Route path="/poruciTortu" element={ <PoruciTortu/> }/>
       
     </Routes>
      
